@@ -21,6 +21,11 @@ canvas {
 .container h1{
   font-family: 'Bungee Inline',cursive;
 }
+.container h1 span{
+  font-style: normal;
+  font-size: 16px;
+  font-family: 'Staatliches',cursive;
+}
 .ip{
   display: flex;
   justify-content: space-around;
@@ -44,7 +49,7 @@ canvas {
   align-items: center;
   justify-content: center;
   font-family: 'Staatliches',cursive;
-  b
+
 }
 .gameinfo{
   font-family: 'Bungee Inline',cursive;
