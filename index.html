@@ -1,0 +1,52 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+    <div class="container">
+      <h1>Falling Stones</h1>
+<div class="field">
+<div class="instruction">
+  <h2>
+    Instructions:
+    <ul>
+    <li>allow camera permission n relaod</li>
+    <li>try moving the ship by moving your head</li>
+    <li>hit all the falling stones</li>
+  </ul>
+</h2>
+</div>
+  <div id="cnv">
+</div>
+<div class="gameinfo">
+<h2>  <p>score:</p> <span id="score">0</span>
+  <p>high-score:</p><span id="highscore">0</span>
+</h2>
+</div>
+</div>
+
+
+      <div class="io">
+        <div class="op">
+          press the button to start the game;;
+        </div>
+        <div class="ip">
+          <button type="button" name="button" onclick="play()">start</button>
+          <button type="button" name="button">quit</button>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="sketch.js"></script>
+    <script src="App.js"></script>
+    <script src="stone.js"></script>
+      <script src="playGame.js"></script>
+      <script src="skeleton.js"></script>
+
+
+</body></html>
